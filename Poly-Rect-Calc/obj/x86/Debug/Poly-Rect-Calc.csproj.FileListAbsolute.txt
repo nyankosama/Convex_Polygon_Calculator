@@ -7,3 +7,7 @@ E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\GenerateResource.rea
 E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly-Rect-Calc.exe
 E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly-Rect-Calc.pdb
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\bin\Debug\Poly-Rect-Calc.exe.manifest
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\bin\Debug\Poly-Rect-Calc.application
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly-Rect-Calc.exe.manifest
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly-Rect-Calc.application

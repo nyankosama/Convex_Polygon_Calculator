@@ -134,6 +134,7 @@ namespace Poly_Rect_Calc
             else
             {
                 label4.Text = "面积: " + area;
+                label3.Text = "";
             }
            
         }
