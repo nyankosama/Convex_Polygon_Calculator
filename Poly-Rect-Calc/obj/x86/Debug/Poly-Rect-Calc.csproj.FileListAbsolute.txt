@@ -1,0 +1,9 @@
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\bin\Debug\Poly-Rect-Calc.exe
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\bin\Debug\Poly-Rect-Calc.pdb
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly_Rect_Calc.Form1.resources
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly_Rect_Calc.Properties.Resources.resources
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly-Rect-Calc.exe
+E:\workspace\C#\Poly-Rect-Calc\Poly-Rect-Calc\obj\x86\Debug\Poly-Rect-Calc.pdb
