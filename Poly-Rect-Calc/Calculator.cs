@@ -95,6 +95,12 @@ namespace Poly_Rect_Calc
             }
             if (result.Count == 1)
                 result.Add(result[0]);
+            if (result[0].y < result[1].y)
+            {
+                double tmp = result[0].y;
+                result[0].y = result[1].y;
+                result[1].y = tmp;
+            }
             return result;
         }
 
@@ -118,6 +124,12 @@ namespace Poly_Rect_Calc
             }
             if (result.Count == 1)
                 result.Add(result[0]);
+            if (result[0].y < result[1].y)
+            {
+                double tmp = result[0].y;
+                result[0].y = result[1].y;
+                result[1].y = tmp;
+            }
             return result;
         }
 
@@ -127,9 +139,25 @@ namespace Poly_Rect_Calc
         private int isOverBySomeLine(Point po1,Point po2,Point p)
         {
             double[] k_b = getK_b(po1, po2);
-            double k = k_b[0];
-            double b = k_b[1];
-            double y0 = k * p.x + b;
+            double k = 0;
+            double b = 0;
+            double y0 = 0;
+            if (po1.x == po2.x)
+            {
+                if (p.x > po1.x)
+                    return 1;
+                else if (p.x < po1.x)
+                    return -1;
+                else
+                    return 0;
+            }
+            else
+            {
+                k = k_b[0];
+                b = k_b[1];
+                y0 = k * p.x + b;
+            }
+            
             if (p.y > y0)
                 return 1;
             else if (p.y < y0)

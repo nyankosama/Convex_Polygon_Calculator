@@ -84,6 +84,11 @@ namespace Poly_Rect_Calc
         private void button2_Click(object sender, EventArgs e)
         {
             int index = listBox1.SelectedIndex;
+            if (index == -1)
+            {
+                label3.Text = "请先在列表中选中要删除的坐标";
+                return;
+            }
             calc.deleteByIndex(index);
             listBox1.Items.RemoveAt(index);
         }
