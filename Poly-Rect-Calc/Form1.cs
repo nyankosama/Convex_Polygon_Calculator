@@ -48,6 +48,7 @@ namespace Poly_Rect_Calc
             calc.addPoint(new Point(x, y));
             string listStr="("+x+","+y+")";
             listBox1.Items.Add(listStr);
+            label3.Text = "";
         }
 
         void textBox2_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
@@ -75,6 +76,7 @@ namespace Poly_Rect_Calc
                 string listStr = "(" + x + "," + y + ")";
                 listBox1.Items.Add(listStr);
                 textBox1.Focus();
+                label3.Text = "";
             }
             
         }
